@@ -5,7 +5,7 @@ gcc ./cjkpad.c -o cjkpad `pkg-config --libs --cflags icu-uc icu-io`
 #include <stdlib.h>
 #include <string.h>
 #include <unicode/utext.h>
-#include <unicode/ustdio.h>
+/*#include <unicode/ustdio.h>*/
 #include "ruby.h"
 #include "extconf.h"
 
@@ -36,7 +36,8 @@ char* padCjk(const char str[]) {
 
     int begin, end;
     int i = 0;
-    int blk, filled;
+    int blk;
+    int filled = 0;
 
     for (UChar32 cp = utext_next32From(ut, 0);
          cp > -1;
