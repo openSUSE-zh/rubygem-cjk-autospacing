@@ -2,6 +2,9 @@
 
 $LOAD_PATH.push(File.expand_path(File.dirname(__FILE__)+'/../lib'))
 
-require 'autospacing'
+require 'cjk_auto_space'
 
-p "你好world哈哈".autospacing!
+ARGV.each do |arg|
+  puts arg
+  puts arg.cjk_auto_space
+end

@@ -23,18 +23,16 @@ typedef struct gra {
 
 UBool u_isMarkdown(gra* g, bool prefix);
 
-char* padCjk(const char str[]) {
+char* padCjk(const char* str) {
+    char* formatted = calloc(1024, sizeof(char));
 
-    char* formatted;
-    formatted = malloc(1024 * sizeof(char));
-
-    gra* graphemes;
-    graphemes = malloc(1024 * sizeof(gra));
+    gra* graphemes = malloc(1024 * sizeof(gra));
     int graLen; // number of graphemes
 
     UText *ut = utext_openUTF8(NULL, str, -1, &err);
 
-    int begin, end;
+    int begin = 0;
+    int end;
     int i = 0;
     int blk;
     int filled = 0;
@@ -56,9 +54,6 @@ char* padCjk(const char str[]) {
     graLen = i;
 
     filled += graphemes[0].length;
-    if (filled == strlen(formatted)-1) {
-      formatted = realloc(formatted, strlen(formatted) * 2 * sizeof(char));
-    }
     strncat(formatted, &str[graphemes[0].start], graphemes[0].length);
 
     for (int j = 1; j <= graLen; j++) {
@@ -172,12 +167,11 @@ UBool u_iscjk(int ublock) {
 static VALUE rb_pad_cjk(VALUE self) {
   Check_Type(self, T_STRING);
 
-  char* in = RSTRING_PTR(self);
+  char* in = StringValueCStr(self);
   char* out = padCjk(in);
-  self = rb_str_new2(out);
-  return self;
+  return rb_str_new_cstr(out);
 }
 
-void Init_autospacing(void) {
-  rb_define_method(rb_cString, "autospacing!", rb_pad_cjk, 0);
+void Init_cjk_auto_space(void) {
+  rb_define_method(rb_cString, "cjk_auto_space", rb_pad_cjk, 0);
 }
