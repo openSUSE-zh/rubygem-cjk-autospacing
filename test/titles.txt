@@ -1,0 +1,1184 @@
+我 vmplayer 装的 sles11sp3，想把软件源设定为 dvd2，却出现 can't provide /media.1/
+还要安装什么插件才能让 juk 播放 mp3
+第一届 openSUSE 亚洲峰会将于今年10月18/19号在北航举办 ，敬请期待！
+Thunderbird 与 muttator 结合最新使用心得
+调整 swap 卷的大小
+有时电脑找不到 touchpad 设备
+openSUSE 亚洲峰会 LOGO 设计大赛
+疑問 CDEmu 配置與設定 (抱歉，發錯地方 ，請版主刪文
+伟大在 linux 居然要用 dos 文件系统引导？
+[PDF 编辑] 推荐一个 PDF 编辑软件 - Master PDF Editor
+[r&i 流程图] 推荐一款 cad 流程图软件 - ri-cad
+[MATLAB] 分享一个 MATLAB 下载链接 (Win-Unix-OSX)
+【已解决】如何从 kde 切换到 xfce
+[已解决] 请问有 lighttpd 的配置教程吗
+推荐一个学习 Emacs lisp 的网站
+求助：用 wine 安装 PSIM9 失败
+不用 vpn 打不开了
+请教关于外接 SSD 与 Parallels VM 的 trim 问题
+[已解决] kworker 有 N 多个
+关于 kmail 使用中遇到的问题
+[已解决] Chromium 在 tab 上和地址栏里不显示中文（中文显示为空白）
+使用 root 权限开启的程序无法使用输入法
+opensuse13.1 如何在 CLI 下调整屏幕分辨率
+如何在调用 mkfs 命令时指定文件系统 ID ？
+[已解决] openbox 如何才能使用 KDE 下 Alt+F2 的命令输入功能
+恭喜 天上掉下的 x (26) 生日快乐
+「求助」YaST 下面的 firewall 如何禁用某個軟件聯網
+Zypper 报错 couldn't resolve 'http//'
+如何让其它程序启动 Dolphin 时不开新窗口，而是以新标签页的形式去启动
+Tumbleweed 下运行 VirtualBox 出错的解决办法
+关于该论坛的一点 seo 建议。
+求解 hillwood 的 winetricks 文件下载下来怎么用
+基本面对比：我的 T430 vs 学校新买的苹果一体机
+Dolphin 打开 smb 共享，每次都要装入文件夹，慢。
+[入坑求助] 我现在可以用 13.1 安装 mate 桌面而不安装其它桌面吗？
+[已解决] 硬盘安装 Live-13.1 失败，根本进不去 提示 Failed to find MBR iden
+有人用过基于 Node.js 的豆瓣 fm 么？我安装失败了，求助！
+富士通 sh782、s904 超级本是神器啊……
+鼠标左上角展现窗口，或 Alt+Tab 转换程序时，怎么去掉彩色效果？？
+微软 Sculpt 人体工学桌面套装
+［已解决］moonplayer 播放器缺失 moonplayer_utils
+[ 已解决 ] 请问如何编译 zypper si 下载下来的源代码？
+U 盘安装 opensuse13 失败，求助
+关于安装 labview2013,labview2014 的问题和相关解决方案...
+没对住 happylife7324 兄啊，昨天才看到 NEC LaVie Z，不到 800g
+[完全 ot] 10月 份想去北漂……
+[已解决] Fcitx 无法在 firefox 里输入汉语
+openSUSE 系统环境如何制作 u 盘安装 ubuntu
+[已解决] 根目录下的超大 tmp 文件夹是怎么回事
+关于 opensuse 12.1 use bash 漏洞打补丁的问题
+敌人的敌人就是朋友…… 已装 Windows 10 预览版
+［已解决］笔记本睡眠后无法唤醒，电源键 led 一直闪。
+到北京了！期待 10.18 的 openSUSE 亚洲峰会见到诸位亲！
+关于 windows8.1 和 opensuse 双系统引导问题
+有关 gnome3 的问题两个
+[最新消息]日本山形县 NEC 米沢工厂疑似复产，生产 Thinkpad
+强烈推荐百度云 linux 客户端（bcloud）
+误删 ESP 分区里的 opensuse 文件夹。。
+哪个大神能否给 hhvm 的打个包
+求助：关于下载的 widget 无法安装
+[讨论向] 从 arp 攻击中保护机器
+物有所值，索尼 DPT-S1 电纸书开箱（13 寸 E-Ink）
+各位 DWG 格式重度用户，64 位 DraftSight 释出
+安装 openSUSE13.1 后，原来的 win8.1 开机速度变很慢
+问一个 suse 静默安装的问题
+Gdb 不能单步进入 opencv 的源代码
+立贴 13.2 发布，第一时间安装， 并且从此 开启 用 Linux 来生产
+Opensuse 13.1 里的 javac 有问题？
+(已解决) 13.2rc 的 VIM 死活不能语法高亮,javac 命令找不到
+13.2 的 bug 一个
+关于修复 u 盘的问题
+请求修正 phpbb 主题的 bug
+Opensuse 13,1 安装 bumblebee 报错
+13.2 就要发布了，可是按摩店的最新驱动只支持到 kernel3.15 肿么破？
+会有 openSUSE 13.2 光盘吗？
+官方 ftp 已经有 13.2 iso 了
+有人在玩 HoN 吗？为什么我安装完客户端运行之后就立马闪退了？
+openSUSE 13.2 无法安装 WPS，另外无法双击安装 rpm
+［问题已解决］libreoffice 在 opensuse 13.2 系统里软件界面如何把英文更换成中文
+关于 hp 笔记本的声卡声音不正常（主要是没有低音）的解决方案
+opensuse13.2 中 VirtualBox 无法完成安装 windows8.1
+[已解决] Mozilla Firefox 的一个 bug
+opensuse13.2 每次开机之后首次单击 RPM 软件包都不能安装
+[已解决] 如何在关机时保存 tmpfs 的内容？
+[已解决] 如何更改 Grub2 启动顺序
+[已解决] 怎么强制关闭 packagekit？
+[已解决] 13.2 怎么安装百度云 bcloud，python3-keyring 依赖
+[已解决] 百度云 bcloud 手动安装出问题
+输入法不能在 WPS 和 LibreOffice 中使用
+系统字体太多，导致 wps 启动很久久久
+深度音乐打不开。已经安装 python-gstreamer
+[已解决] openSUSE 13.2 如何禁用 nouveau 驱动
+linux 下 wacom 手绘板驱动的安装（特别针对 openSUSE）
+如何在 zshrc 里使用 alias 同时带参数并且在后台运行
+13.2 这个是 bug 么？我需要 report 么？
+[已解决] 安装百度云之后，如果忘了 gnome 密钥环的密码
+Clementine 无法播放 mp3
+13.2 无法进入纯 ipv6 网站
+希望快点能用上 kde5.1
+[已解决] konqueror 无法安装 flash
+想问一下 openSUSE 下面比较正常的测试流程？
+小白鼠实验 openSUSE13.2 的 AMD 双显卡私有驱动
+[已解决] VBOX 虚拟机安装完的系统存在哪里？是 root 里面么？
+偶有几个 KMail 的疑问需要请教？
+求助 dvd 硬盘安装
+[已解决] 咨询 dpkg 无法打开 info 文件 问题
+北京 GNU/Linux 用户组狂欢节及 BLUG 12 周年生日大 Party
+偷懒的 firefox
+13.2 能扫到 wifi，但是连不上
+我的 Chrome 卡成狗，你们卡吗
+如何连接 L2TP/IPSec 的 vpn 服务器
+什么时候出个 openSUSE for Phone
+[已解决] 如何取消开机 kdewallet 自动弹出？
+[已解决] 怎么恢复用 imagewrite 写入 iso 的优盘
+删除 swap 分区之后系统无法启动
+下载安装镜像不能用火狐 DownThemall 插件？
+如何指定 glibc 运行版本
+有 wine 暗黑 3 的吗？
+（解决，不完美）13.2 unetbootin 无法识别 U 盘分区
+关于两个 opensuse 论坛的问题
+求助，i7-2600 核卡与 nv GTX570 分别连接一个显示器以及 epsonM1+ 驱动
+自己打了个 mozc-ut 的包，带有增强词库
+Opensuse 13.1 无法上 ipv6 网站
+Ksnapshot 截图中没有显示 KDE 的光晕
+13.2 怎么禁用官方源和 dvd 光盘源
+关于 opensuse 的 Android 编译环境
+请教 freeplane 在哪个源里有啊
+[图文教程] 在 openSUSE 下玩转 GPG
+网站默认以 windows media player 为播放器的问题？
+Opensuse 每次关机再开机之后 ipv6 网络就连接不上
+[已解决] 如何调整 KDE 图形桌面 YaST 窗口中字体显示的大小？
+刚接触 suse 准备搭建服务器求指导
+每次启动 opensuse 后 opensuse-secureboot 会变成第一启动项？
+[已解决] wineQQ 中 fcitx 无法切换输入法
+Opensuse13.2 安装 pitivi 确打不开，什么原因
+[已解决] 关于 Factory 版本 update 更新源地址的问题
+求助：安装过 nvidia 驱动后不能进入图形界面（13.2）
+（请教大神）系统卡住 有 log 但不知什么问题
+如何在 openSUSE 13.2 中設置虛擬內存盤？
+求教系統安裝，啓動引導器選擇 u 盤的問題！
+[已解决] 今天上 OBS 发现 Tumbleweed 和 Factory 的 libisl10 没了
+opensuse 的 LiveCD 连贯是什么意思?
+Make 时 cannot find -lm 求大神帮助啊
+Opensuse 下 ifort 如何安装静态库
+求助：想找一个 office 软件
+［已解决］AMD 驱动只有 geeko 一个源吗?
+如何删掉安装 qt5.3 产生的菜单？
+求助，kde 守护进程一直要求 Wi-Fi 密码
+13.1 在线升级 13.2 后系统是 btrfs？了
+在 openSUSE 中如何编写 F#
+有人听说过 opensuse-guide.org 吗？
+linux 当中的 w 命令，出现一个 TTY 为:0 的客户端
+13.2 用 yast 安装软件卡住
+安装 amd 驱动后重启无法进入图形桌面
+firefox 在 SUSE-GNOME 下界面显示的问题
+(已解决) suse13.2 yast 和 wiznote 无法输入中文
+LibreCAD:Open SUSE13.2 的 CAD 解决方案
+求助 btrfs 文件碎片整理！ (已解决 是 btrfs 快照)
+openSUSE 13.2 dvd 版 桌面选项没 MATE
+[已解决] opensuse 中的 JAVE_HOME 怎么是 /usr/lib64/jvm/jre？
+求助 SUSEstudio 生成 live iso 安裝后遇到的若干問題!
+话说你们都能正常打开百度云下载的 zip 文件啦？
+在模擬終端用 yast update 出現如下提示
+「已解决」deadbeef 无法播放 mp3
+如何修改默认编码格式 utf-8 为 gb2312
+启用 bios 网卡不能登入系统
+有人用 Unity 吗？
+SUSE Linux Apache 如何切换 MPM 模式？
+关于 mariadb Galera Cluster 在 opensuse 安装，无法启动 MySQL 服务
+[已解决] 请问 kde 锁定屏幕的命令是哪个？
+[已解决] 没有 NetworkManager 怎么连接无线网
+[已解决] 升级 13.2 后没有 loop 设备
+[已解决] disk 不显示 USB 设备
+如何用 OPENSUSE 上 facebook?
+Opensuse 13.2 华硕 z97-ar 集成网卡驱动问题
+进不了 kde 桌面
+程序不走 vpn
+[已解决] firefox 34 的 flash 插件崩溃
+请教关于 zypper 安装与一键安装的差异［已解決］
+[已解决] mpv 如何设置 vaapi 硬解
+关于 ug10 的安装
+SLED12 如何安装 kde 啊,有 kde 的源没有?
+装了 WIN8.1，怎么找回 openSUSE 的启动项?
+KDE 下进入 tty 然后无法返回 KDE
+如何查看 Wi-Fi 上网参数
+噴。。。。gnome 和 kde 更新提示
+关于直接输入 ip 地址反而上不了网？
+请问为什么 13.2 的 YaST 这么丑？
+安装 Windows 8.1 和 openSUSE 13.2 的双重引导
+[已解决] 想问一下 kontact 能整体备份吗？
+13.2 版 64 位 opensuse 可以用 steam 吗？
+[已解决] 请推荐一个 ftp 或 http 的下载地址
+这是什么 bug？影响 Ark 的加载速度
+Opensuse13.2 如何安装 steam 啊？
+请问前辈们，碰到更新时 file conflict，处理逻辑是？[已解决]
+恭喜 通过 suse 学英文 (27) 生日快乐
+[已解决] 我是小白 thinkpad E440 入手中，移动硬盘怎么安装系统
+关于 grub 找不到引导的问题
+[可用] 我想我找到 Chrome 地址栏输入卡顿、界面 UI 卡顿、页签切换卡顿、UI 进程 CPU 奇高的解决方法了
+一个菜鸡是怎么把 SurfacePro1 刷成 openSUSE 单系统的？
+一键安装 nvidia 驱动失败
+非 wacom 数位板怎么安装驱动
+看见这图第一反映是 Su 姐和 SUSE
+[已解决] 64 位 opensuse 下编译 32 位 helloworld 的问题
+有没有在 VirtualBox 给 iPhone 刷机成功过的网友
+问个 kde 桌面背景的问题
+KTorrent 或者 QBittorrent 怎么屏蔽吸血？
+求助：探讨下官方源 php 引发的一系列疑惑和问题
+我的 openSUSE 历程
+[已解决] systemctl enable 失败 Failed to execute operation
+[已解决] 论坛无法访问以及 ftp 的问题汇报
+GCC 对内联汇编真是弱这算是 bug 么？
+[已解决] 安装最新的官方的 jdk 的时候出错了！
+求助 /.snapshots 中文件无法删除（已解決），导致无法进入 KDE，snapper 显示快照已删除！
+[已解决] 卸载 nvidia 后不能开机
+有哪种 U 盘路由器可以支持 linux
+KDE 混音器 KMix 不能用鼠标拖动音量条
+对于 arm 架构的不爽
+[已解决] 关于 nvidia 显卡的一些小疑问
+小米随身 wifi，我们的系统上能用吗？
+[已解决] 请问从 CentOS 转到 SUSE 需要注意哪些问题?
+[已解决] 虚拟机中的 openSUSE 无法上网
+[已解决] 请教 deepin-music-player 不能播放的问题
+[已解决附方法] AR8161 设置静态 IP 及 DNS 后仍然不能访问内网
+Zypper install 出现 Segmentation fault 错误
+openSUSE 13.2 无法进入 KDE（qdbus）
+13.2 安装 nv 驱动不能正常运行独显
+关于 VirtualBox 上运行的 win8.1 无端卡死
+让人抓狂的 Ruby 多版本
+双系统 win 下可以穿越 Linux 却不能
+[求助] 关于苏姐的 shadow{gf}socks 求教怎么用
+导入 CA.crt 证书到系统证书库
+问一个关于 shadowsocks-libev 的问题
+Document Viewer 当中 windows + right/left 快捷键不起作用
+哪个可以打开 dwg 文件？
+无法从 sourceforge 下载 omegat
+关于 xargs 的小 BUG
+更改 grub2 引导界面分辨率
+[已解决] 如何解除 kget 和 wget 不知道哪里设置的代理？
+关于 shadowsocks-libev 使用方法~
+一旦使用 flash，鼠标便非常卡，firefox/chrome 皆如此（找到原因）
+无法升级 gcc g++
+echo 有 BUG？
+[已解决] 如何把 python 的命令做成后台运行的服务
+准备打包 youdaodict 时候遇到一些问题
+【已解决】关于 service 的一个现象，本人菜鸟不甚了解，求指点
+Avidemux3 在 opensuse13.2 下无法启动
+请教如何修改系统默认的 serif，sans-serif 以及 monospace 字体？
+不能用 one click install
+弱弱问一句，怎么让 suse 记住网络密码？？
+打开 fortran 源码时出现的一个框框
+Tumbleweed 的 GTK3 应用边框有点问题
+【已解决】opensuse13.2 该怎么升级 python2.7.9
+每次开机 kmix 音量都为零，每次开机都要调音量
+自带的 plasma 主题，名为 openSUSE 的自带主题的问题
+【已解决】固态硬盘安装 openSUSE 有什么需要注意的地方吗
+执行 modprobe 后，系统修改了哪些地方，该如何还原？
+Gcc 5.1/g++ 5.1 为什么不默认支持 c++11
+Tumbleweed 的 Plasma 升级到 5,坑爹的手贱!
+从 13.1 开启 tumbleweed，遇到一些不解的东西～
+为什么 cp 改变了文件的属主
+近日Packman 源的 VLC 是存在依赖问题吗
+[已解决] 13.2 怎么删除 Cinnamon,然后安装 KDE
+想下载苏姐的 shadowsocks-qt5
+[已解决] 如何在换 Tumbleweed 时顺便把 KDE5 也换上？
+[已解决] Tumbleweed 里的 vlc 无法播放 wmv flv 和 APE
+新手 opensuse13.2，系统设置总是崩溃
+关于 SAS 硬件 raid 卡支持的疑问
+有多少人是 i+n 双显卡并且用着 Tumbleweed 的
+这个论坛有没有官方 qq 群
+各位有什么好的 Konsole 配色推荐吗?
+openSUSE13.2 命令行启动作为打印服务器--遇到 Wi-Fi 问题
+请教如何在启动时禁用 usb 设备？
+[已解决] 怎么解决 Sublime 无法显示英文？
+Linux 相关的那些 Telegram 群 (20150706 更新)
+用 bat 和 shell 脚本语言实现字符串拼接
+系统默认安装的 mariadb 启动问题
+求助：显卡问题引起的 openSUSE13.2 安装错误
+[已解决] YaST 和 KDE5 无法使用
+[纯水] 最后我安居在 openSUSE 的四大理由
+GONME3.6.2 桌面设置 Wi-Fi
+请问 alc888 声卡如何设置 spdif 输出？
+主题是我和 openSUSE
+最近的 Tumbleweed 去掉了 suspend
+隐隐感觉 yast2 界面某个图标下面有图标说明
+请问下如何在纯命令行下配置 Fcitx
+彻底放弃双显卡，装上闭源驱动，intel 核显 opengl 不能用。
+[已解决] 论 opensuse 滚动更新至 KDE5，dolphin 闪退问题
+[已解决] 为什么 zypper install python 没有生成 python 的 bin 文件？
+DVD 刻录好 u 盘启动不了图像界面啊！
+[已解决] iPhone 通过 usb 分享的网络不能用
+[IT 新闻] 什么鬼？？？——德国慕尼黑政府或将放弃 Linux，回归 Win10 系统
+[已解决] win7 安装 openSUSE13.2 后无法启动 windows
+【我是谁】装逼档案——情系 Linux 之我想静静
+Opensuse 安装 MySQL 之后，出现 3 个服务，（mysql、mysql@、mysql@default），这都是什么啊
+[已解决] 如何让 qt5 的软件正确显示点阵字体？
+[已解决] 请问 opensuse 里面有没有图形化的 SVN 客户端？
+运行 android-studio 报错了
+请问 Opensuse 42.1 是个什么东西
+[已解决] 请问 Plasma5 桌面的 compositor 该如何设置呢？
+求助 GTX980m 双显卡驱动的安装方式
+[已解决] openSUSE 13.2 x86_64 KDE 安装 Nvidia 闭源驱动后 Chrome 界面和内容自动放大
+[已解决] openvpn 中 NAT 关于 Susefirewall2 防火墙设定（VPS）
+给我解释一下 tmpfs 是什么
+Opensuse 13.2 下 Pyenv 的安装调试
+MySQL 还是 mysqld
+问一个很弱很弱的问题，各种 linux 发行版中自带的数据库对于操作系统来说有什么用？
+[已解决] 升级到 kde5 锁屏界面无法通过秘密验证，即使密码正确也无法 unlock
+[已解决] 我的 kde 桌面任务栏不见了，添加标准面板也没用
+汇报一个 MySQL Workbench 的 Bug
+请问如何关闭 Snapper 快照
+我想知道 https://software.opensuse.org 上 “臺語” 是什麼鬼
+求助！ konqueror 看 html5 没有声音！！
+Tumbleweed 下的 kdegraphics-thumbnailers 的问题
+Radeon 开源显卡驱动已可使用 vdpau 硬解码
+[已解决] 如何加入 Tumbleweed maillist 讨论组
+uefi+gpt 模式:双显卡装 win10+openSUSE 双系统成功之路
+卸载 deb 软件包时如何清理依赖
+安装完 linux 后，无法获得 global 的 ipv6 地址
+最近 opensuse 是不是有什么大动作
+无法切换到 tty1～6
+Opera 浏览器为何只有 deb 安装包
+如何更改 KDM/XDM 的 primary display？
+今天滚起来，发现 desktop 内核都没了
+最近发现 opensuse 13.1 无法升级，请问是什么原因
+请问 openSUSE 下应该如何设置字体的 TrueType hint？
+使用 openSUSE 搭建自己的 VPS
+安装 linux 系统之 RHEL7 或 CENTOS7 系统 (完整版)
+Suse 校园网 ipv6 问题 (pppoe 拨号)
+Kvm 配置安装 rhel7 系统的方法
+[已解决] 用 MPV (Smplayer) 播放视频,没声音
+Linux 系统 Root 密码破解 (RHEL7&Centos7 版本)
+关于 Leap42.1 系统提示音默认最大音量的问题有人遇到吗
+【 转 】 生命、宇宙以及 Linux 系统的终极答案？ openSUSE Leap 42.1 华丽发布
+被 Leap 的升级萌到了
+64 位 42.1 等宽字体与 Chrome 浏览器强制字体扩展问题
+无法启动 OpenSUSE
+Firefox 使用 pepperflash 遇到问题（已解决）
+如何在 Windows 中识别多分区 U 盘
+视频剪辑软件 kdenlive 运行问题
+Ibus 输入法候选框不跟随，已改过 qt 设置
+【已解决】安装完 openSUSE42.1 后，进不了 windows8.1
+[已解决] 42.1 上 fcitx 输入法问题
+(42.1 已解决) 各版本官方源中的 Deepin Music 安装后报错，能否解决？
+关于进入 grub 菜单
+想问一下 leap 42.1 和 tumbleweed 区别是什么，只是后者是滚动升级嘛？
+[已解决] 怎么把 swf 拖到 firefox 后是下载，不是播放？
+安装 rpm 包时提示依赖没有
+求助：新装的 leap42.1 今天刚装完 N 卡驱动进不了桌面
+42.1 上 fcitx 输入法问题 (new problem)
+Leap 42.1 的 KDE 穩定性問題?
+用了 vps 上不了网？
+Wicked 如何设置 vpn？
+支持大家用 opensuse，说以下我入坑 1 周的体会
+请教 leap42.1 怎么安装 KDE4 啊，感觉 KDE5 不如 4 用着习惯
+有没有大神提供一下 susue 的地图软件，包括全世界的地图
+请问 packman 和 opensuse 是什么关系？？
+关于 win7 和 openSUSE 双系统的问题，急求大神！！！
+[已解决] opensuse42.1 安装 python 库时出错
+[求助] 升级后 KDE 进不去，如何在 ctrl-alt-f1 下修改开机用 ICEWM 等其他桌面进入？
+双显卡，感觉 N 卡的闭源驱动还不如 i7 自带的 GPU 呢
+看到 Leap 我又回来了
+如何解决 wine qq 托盘的问题？
+请问如何关闭 btrfs 的快照功能呢？
+想学 c++ 游戏开发但是没项目没美术的没动力。。。
+[已解决] Wi-Fi 那里的 Wi-Fi 热点开了手机也搜不到信号？
+为何大黄蜂安装 nv 驱动时总是下载两遍驱动呀
+[已关闭] 吐槽 zypper 的 autoremove
+女王大人的 ss-qt5 连接时崩溃
+Zypper 不能正常移除 Application
+运行 zypper ve 时出现问题
+推荐 KDE 下的 Markdown 笔记程序（本人正在开发）
+[已解决] OBS M17N 里面的 fcitx 打包问题
+[已解决] 难道创建个 package 还要翻强？
+LEAP 42.1 中 Totem 无法打开问题
+openSUSE 下如何指定 per-user fonts substitute？
+打包 Smark 遇到的问题
+分享一个 PostgreSQL+Dropbox 自动备份
+请问 zypper dup 怎么能不安装这些包，（感觉用不到就删了）
+Opensuse 42.1leap 如何安装 nvidia 驱动。
+我看有很多成功安装 Office 2013 的，为什么我不能呢？
+ati 和 nvidia 在 Linux 下的性能
+软件库中搜索的 peazip 没有一个可以正常使用的
+[step by step] 系列 4: openSUSE Leap 42.1 下 KVM 的使用（小白版本）
+Suse 11 sp3 关于安装 phpize 时的依赖问题
+关于 python 版 shadowsocks 客户端无法设置开机自启服务的问题
+Tumbleweed 执行 primusrun steam 报错找不到 steamui.so 的解决办法
+关于 ftp server 安全性
+是不是 sigil 在 KDE5 中无法正常工作呀
+firefox 打开已下载文件时会打开一个 dolphin 窗口？(已找到原因）
+openSUSE Leap 更新后无法引导 win10
+[已解决] 有 Intel 网卡驱动却上不了网及自编译网卡驱动的问题
+[已解决] 请问视频文件用 SMplayer 播放没声音是不是解码器的问题?
+BCloud 提示 Failed to get bdstoken! 的解决办法
+[已解决] Kile 如何配置（链接）自己手动安装的 TeXLive2015
+不能访问 windows 分区了
+[教程] OpenSUSE 安装配置 TeXLive2015、前端软件 Kile、TeXstudio 及 TeX 更新软件的使用
+Radeon 开源驱动可以用 vaapi 硬解码了
+隐藏 suse 开机引导，怎么恢复？
+[已解决] uefi+gpt 装完 opensuse42.1 无法引导进入 win10
+系统托盘图标显示有 bug
+删除 google 字体应该没有问题吧
+现在 42.1 可以用 btrfs 文件系统做 / 文件系统？
+Opensuse42.1 官源的 VIM 支持 python2.x 有问题
+升级提示没有 noto-sans 怎么办
+求助，关 vmware 的问题
+[已解决] 每次安装或升级 opensuse，总要重启一下 NetworkManager
+分享一个成功安装 wine 的方法
+突发奇想来张 Leap 同人图 (
+为何 zypper 的进度条会不断换行？
+如何重新生成 gnome-shell-theme.gresource
+[已解决] 因为一个 rpm 校验失败无法更新补丁
+【教程】跨平台使用 vim-pandoc 和 vimtex 编辑和输出 pdf 和 docx 的教程
+Amarok 和 vlc 没有声音
+Konsole 输入无显示的 bug?
+【提问】请问 SUSE Linux 企业版 (SLE) 的发行周期
+【提问】Tumbleweed 的核心是基于 SLE 的吗？如果不是那是基于什么的？？？？
+[提问] TW 和 leap 的小部件差别好大，请问，以后 TW 中的这些小部件是不是慢慢的会增加到 Leap 版本中？？？
+Amd 开源驱动 radeonsi 和 r600 到底是什么关系？
+为什么卸载 Xterm 之后 Gnome 进不去了
+Obs 打包状态 unresolvable 怎么办
+opensuse 怎么播放带有 EXE 格式的光碟
+[已解决] OBS:Server:2.6 为什么不给 Leap 42.1 编包
+[已解决] 打开 cheese 出错
+[劳烦诸位] 入坑不久，请教关于 zypper 锁定的问题
+[已解决] spec 文件中需要写 Requires 么
+【求助】关于 net.ipv4.tcp_tw_reuse 设置项的疑问
+openSUSE Leap 在更新了 kde 的软件包后登录界面无法显示
+Leap 需要对 SSD 硬盘专门设置吗？
+Leap 的 KDE 桌面更换 “窗口装饰” 后开机几次操作无响应
+弱弱地请教 socks5 全局代理的方法
+[step by step 系列 8]: openSUSE Leap 42.1 下搭建 OBS
+OpenSUSE42.1 使用 dd 命令创建启动 U 盘安装时报未通过完整性检查
+·求助」我的 OPENSUSE 无法休眠，是不是因为 swap 分区过小造成的？？
+·提问」都说 swap 分区是内存用完了才使用 swap，但是这个截图怎么解释呢？
+全新安装 42.1 后没了 root 登录
+安装 leap 42.1 不能关机
+SUSE11 下 setcap cap_net_bind_service 不生效
+求助修复 Leap42 引导
+[求助] pip 安装 spglib 失败
+openSUSE 42.1 zypper 搜索软件提示 DVD 源挂载失败
+Wicked 是 openSUSE 的必须依赖么？
+安装包里都什么东西 四个多 g
+Fuse-exfat 挂载不了 exfat 移动硬盘了
+今天更新了一下系统重启然后 plasma5 就黑屏了
+[已解决] 自带 openJDK 还需不需要下载 oracleJDK 来个大手指点下
+Win10 安装 opensuse 后无法进入 opensuse!
+[已解决] openSUSE 42.1 在安装 audacious 之后，默认使用 audacious 打开文件夹
+那个 ipv6 临时地址
+[已解决] 软件源里的 zeal 报错 “段错误”
+如何用 shell 实现只让部分字符动，剩下不动？
+重新发一下金山音标字体，以及 OpenSUSE 42.1 的 StarDict 问题
+使用 shadowsocks-qt5 代理火狐无法科学上网的解决办法
+如何理解 btrfs 文件系统中的 subvolume 子卷的含义？
+谁知道 leap 怎么升级 GNOME3.18？
+大家现在是选择使用 uefi 还是传统 bios？
+Okular 怎么能依赖于 yast,怎么打包的?不想装 yast
+UEFI+GPT 分区的 SSD，挂一个 MBR 分区的机械硬盘后 SSD 上的 win7 不能启动了
+42.1 无法与手机 usb 共享网络
+42.1 中的 stdlib.h 和 limits.h 有问题？
+关于 qt creator 的 bug
+安装 abaqus 时无法启动 GUI 界面
+openSUSE Tumbleweed 无法通过 PPPoE 拨号获取 IPv6 地址
+目測 42.1 裏面從 software.opensuse.org 安裝 shutter 和 hotshots 都不行了
+请教：在 debian 中，有没有像 opensuse 中 yast 那样功能强大的图形化控制中心？
+新装 Leap 42.1 碰到了 bug
+[已解决] openSUSE xfce 桌面的终端确认必须输入'是'输入 y 不行！
+安装永中 office 用不用 jar 或 jdk
+想知道 patch 是如何生成的？
+大家觉不觉得 openSUSE 有点臃肿啊
+Software.opensuse.org 上没有适合 openSUSE 的 golang
+openSUSE Tumbleweed 使用 cisco 的 anyconnect 的问题
+[已解决] 求助，无法把插件拖进 Chrome 内
+让 ubuntukylin 害的
+求助：电脑重启后，磁盘阵列 /dev/md0 消失了，md0 用 mdadm -A 选项无法恢复
+新安装的 42.1 文本模式 用 putty 连接不上
+Opensuse tumbleweed 开机联 Wi-Fi 输入 root 密码
+打包了 telegram-desktop
+[已解决] software.opensuse.org 网站上找不到 wiz-note 了
+KDE 中的 Dolphin 复制文件卡死
+如何美化 eclipse 的界面
+在 wine 中安装显卡驱动如何。
+为什么安装 opensuse 出现一个绿条就无法继续？
+有没有 openSUSE or SUSE 的书籍？
+Leap 42.1 KDE 打开 firefox 浏览器之后校园宽带断开
+分享张 opensuse 的壁纸
+网易云音乐更新至 1.0.0 ，附 rpm 包
+openSUSE 42.1 下连接 l2tp 的暂时方案
+如何选择默认的 gcc 版本？
+开机自启动 Telegram 会导致 pulseaudio 不正常工作
+[已解决] leap 42.1 安装 bbswitch 失败
+忘记 kwallet 密码
+有人用 shadowsocks 翻墙的吗？suse 版的安装太不友好
+网易云音乐给我装 deb 包是什么意思？
+求助：怎么安装 PlayOnLinux
+用了 xx-net 後網絡出現無法連接
+[已解决] Linux 下 MEOW/COW/ss-qt5 实现局域网共享科学上网
+Leap 42.1 如何启动 SSH 服务？
+新手弱弱的问下如何将 Ctrl+h 改成 backspace
+[SOlVED] Mate 桌面 Pluma（gedit）编辑器怎么添加自动补全等功能？
+提醒：Mate1.4.1 的菜单编辑器 mozo 是个坑，慎用。
+为什么每个月都有那么几天? 你以为你是 ubuntu 啊!
+Leap 42.1 下 python3.5.1 和 python3-pip
+怎么安装双系统到 u 盘？
+请教如何用 zypper up 更新时不升级内核
+小米随身 WiFi/360 随身 Wi-Fi 二代 / 小度 Wi-Fi openSUSE 无线网卡 / 无线 AP 模式配置
+网易云音乐无法切换下载目录，请问是个例还是确实存在 bug
+最新安装的 openSUSE Tumbleweed (20160726) (x86_64) 64 位
+UEFI 引导的网络安装怎么更改 mirror
+成功使用 host 看 youtobe 视频
+Bumblebee nv 驱动无法使用 GLX
+请教关于 zsh 的问题
+关于翻译 openSUSE 的官方 wiki 时遇到的一些问题
+关于论坛服务器 ip
+播放器无法播放 wmv 文件
+我是新手，求教关于安装过程中连入 Wi-Fi 的问题。
+求助 MacBook Pro 安装 suse leap 42.1 的显卡驱动问题
+中科大 update 源不能更新了？
+关于 YaST 的问题
+42.1 的 lighttpd 如何启用 mod？另附阿里云使用 42.1 方案
+刚去 arch 论坛逛了一下，发现比我们这里还冷清
+打算长期用 openSUSE，但是有些顾虑
+有没试过 playonlinux 安装 腾讯对战平台的
+[step by step 系列 7] 打包网易云音乐 OBS 教程
+有没有 libicui18n.so.54 这个版本呀
+今天更新的 bumblebee-primus 好像出了点问题。
+[已解决] 使用 HDMI 接口新增一个屏幕，怎么才能使两个屏幕显示内容一致
+请问 opeSUSE Leap 42.1 如何升级内核？
+Openbox 可以用 wayland 吗？
+efi 下 windows10+openSUSE 双系统安装引导问题
+[已解决] openSUSE 42.1 下 nouveau 导致内核崩溃
+Tomcat 无法登录到 manager app
+〖开森〗flash 宣布重新支持 linux 平台
+42.1，MATE 桌面，怎么修改 dropbox 打开的文件管理器？
+SLES12SP1，不能上网更新，请问哪里可以下载 python-devel?
+新安装的 opensuse42.1 无法关机 acer aspire 星锐 5560G
+[已解决] 如何设置 suse linux 只启动字符界面？
+请问我这样用 openSUSE 是否合适？
+[已解决] 连接网络失败，一直提示 ip 地址不可用
+安装 lbp2900 打印机驱动，一个命令参数无法识别？
+(已解决) 更新了几个 gtk 组件 重启 只能进 tty1。
+求助,我的风滚草 yast 打不开了。。
+Leap 42.1 怎么安装 make 编译环境。
+42.1 安装 vlc mplayer 及多媒体解码器问题。。。
+42.1 安装 nvidia 闭源驱动后开机黑屏，只在左上角有个光标
+有谁成功安装 Siemens UG NX 的吗？
+ThinkPad W510 更新 NVIDIA 驱动
+求一份 plasma 5 下字体的默认配置
+配置服务器时发生了 ldap 不能启动的问题,求大神解
+Opensuse 有没有办法以 root 身份登陆？
+【已解决】 请问 keynote 文件可以在 opensuse 下打开吗
+升级到 kernel-4.8.4 有没有人碰到问题
+菜鸟的 zypper 问题
+新版 tumbleweed 中 VirtualBox 还是不能使用 usb
+openSUSE 42.1 怎样安装 HP M1005 MFP 打印机
+Opensuse42.2 的 vlc 出错
+【已解决】请教 chromium 选中的文字是白底白字，如何解决？
+奇怪 Linux 下看 bilibili 很久才能加载播放
+Tumbleweed 版 gcc 有个 bug
+打包 telegram-desktop 0.10.19 遇到问题
+希望在 opensuse-zh 增加 Electronic WeChat 这个包
+现在 opensuse leap 42.2 已发布，怎么是 rc 版的？
+42.2 下 opera 不显示汉字的解决办法
+[已解决] 请问 techsmith camtasia 的解码器在哪有？
+X11 的底层貌似是 libDRM 和内核？感觉 wayland 似乎比较干净和科学。。
+如何三分钟进入 openSUSE telegram 大本营
+解决声音只有 root 有其他用户没有
+如何彻底取消 libreoffice 安装
+Stable 和 current 的源有多大区别吗？
+Smplayer 的 h264 解码器怎么安装？
+suse shutdown 是如何关机的，我该如何实现拦截 shutdown 然后操作它
+[求助] 通过 uefi 安装的 opensuse 和 win10 双系统，opesuse 启动出错
+如何让 google-chrome 浏览器支持软件一键安装
+intel 集显和 Nvidia 独立显卡同时工作
+[已解决] kde 的 konsole 和 kwrite 字体不好看
+我给 wiki 写了个新样式 用 stylish 可以装上去。。。
+被坑了，求问 cocos2dx 开发环境怎么搭建
+请大神：shutdown 触发 shell 脚本关闭 sybaes 数据库的诡异之处
+Win10 进阶：在 WSL 中安装 SUSE Linux 替换 Ubuntu
+小白的 zypper 问题
+开发板无法通过 nfs 启动根文件系统
+Opensuse leap 42.2 怎么升级到 plasma5.9
+[求助] dhcp 无法获得 ip。
+求一个可用的 bcloud rpm 包
+如何在 OpenSUSE Leap 42.2 系统下启动图形化安装 vmware workstation for linux?
+开机 splash 无法正常显示
+[已解决] 校园网 ipv6 无法使用
+[已解决] Smplayer 比 vlc 更流畅
+[小诀窍分享] 如何保持 SSH 链接不断
+这种情况适合用 openSUSE 吗
+刚才在知乎上看到 opensuse 等安利贴
+如何让 firefox 可以看 man 文档
+Fcitx-rime 无法在 mendeley 输入中文
+如何在 Virtual Console 中显示中文
+[已解决] openSUSE42.2 如何挂载 exFAT 格式硬盘？
+[已解决] gnome-terminal 在 kde 桌面当中使用，最大化无法占满屏幕
+[已解决] 小区宽带连 packman 太困难了……
+文件管理器连接 nas 的问题
+[已解决] 网易云音乐系统托盘不能右键 是 bug 还是个例
+[SOLVED] 风滚草下的 wps 崩溃问题
+Opensuse Tumbleweed 版本安装 vmware 12.5.x 有问题
+我听说贵发行版默认文件系统就是 Btrfs 想了解一下 Btrfs 现在到底是个啥进度了
+大神求助，我使用 obs 打包时出了点错
+[已解决] 使用 OBS 打包出错，提示：directories not owned by a package
+为什么不推荐使用 openSUSE Tumbleweed Live 镜像安装 openSUSE Tumbleweed 呢？
+用 Btrfs 创建了 RAID5 我该何如何重建阵列
+U 盘安装 openSUSE 42.2 窗口出现 get sysfs pci data
+各种闭源字体的 rpm 包
+Opensuse42.2 如何安装 MongoDB
+虚拟机里安装 openSUSE，firefox 地址栏超小，浏览网页字是蝇头小字
+制作 U 盘安装卡 loading initial ramdisk，无法继续
+U 盘安装 opensuse42.2 出现错误
+关于 Yast2 软件安装路径-求助！
+【求助】能不能查到 opensuse 官方镜像站点的数量
+支持 Markdown 的软件
+双系统 进 win10 是花屏进不去
+有捣鼓过实模式下 usb 驱动的大佬吗？或者知道 linux 下 usb2.0 如何工作的大佬
+论坛里的各位大大们遇到过 mce 错误的吗？
+在 42.2 中 Firefox 启动非常慢，启动时间超过 2 分钟
+进入 YaST 后，点击任意选项后均无反应
+Pureftpd 配置 ftp 服务器的一个问题
+[已解决] 防火墙的添加例外的列表当中没有 sshd 服务
+装了好几次 tumbleweed,进入 KDE 介面就是英文,如何改成中文
+我使用 grub4dos 引导 openSUSE Tumbleweed KDE Live 镜像 但是没有中文
+[已解决] 更新时 checksum 值不对
+U 盘安装 42.2 后哭了，开机直接进入 bios。启动顺序里面什么也没有
+Ubuntu 放弃了它的 unity
+请教有哪位大大在 suse 上面挖矿过的？
+从 wine 2.8 起安装 Kontakt 5.6 只需一步
+找不到 SSH日志文件路径和其它问题
+关于 openSUSE 使用远程桌面登录 windows 的解决途径
+解决搜狗输入法在某些 linux 系统下不能输入汉字的方法！
+openSUSE Tumbleweed Dual Stack openvpn 搭建实践 迈入 ipv6
+[求助] 如何让 leap42.2 的 python 升级到 3.6?
+关于 link to device～
+跟 guoyunhe 大大聊这次给 openSUSE 首页交 PR 的各种经验之总结
+Tumbleweed 的 update 源在科大镜像站的路径是什么？
+闭源产品集成 GPLv2 授权的 shell 脚本是否可以？
+是不是不能在 Nginx 中使用变量保存文件路径？
+U 盘安装 suse42.2 开机无法引导
+火狐浏览器看 b 站视频问题
+【求助】安装 openSUSE 在分区时无硬盘，只有 U 盘
+[已解决] opensuse42.2 如何从 gnome 切换到 kde？
+开机自启动命令 after.local 无法执行怎么办
+openSUSE 在 jetbrains 的 IDE 下不能输入中文
+安装 gnome 后 kde 登陆问题
+X86_64 架构升级为了 noarch
+[求助] 光盘安装 42.3 卡在 system probing
+42.2 和 42.3 的 kde 桌面環境有嚴重問題
+在一块支持 uefi 的主板上安装提示： 不支持硬件平台 x86_64 和引导加载器 grub2-efi 的组合?
+[求助] 关于 usb 无线网卡
+[已解决] 求助有关 shell 中双引号的问题
+求助！安装 42.3 遇到 mce 错误
+关于用 c 语言打印图形的一些问题
+VNote--一个更懂程序员和 Markdown 的笔记软件
+开机前的 bug，Tumbleweed 滚动升级版。
+日常使用装风滚草合适还是 leap 合适？
+就是问一下 nginx 下特定请求定向到特定根目录这种操作 Apache 有吗？
+[问题已基本解决] owncloud 如何使用 openssl 自签证书
+[已重装] 升级完 Tumbleweed20171006,开机 root 分区不能挂载，求助
+断电，ldap 库的链接断没了，打 sudo 报 /etc/sudo.conf 找不到
+安装大蜥蜴时出现蓝底的类似 bios 的界面
+为什么 opensuse 软件搜索页面总是抽风
+聊个非 linux 的话题---富士通 F-04G 有能解锁的吗
+风滚草能用 AutoYaST 吗？
+Firefox 访问 html5 网页的问题
+使用 yast 安装没有反应
+当年的 smeegol 项目最后怎么样了，suse 的平板装的使这个产品吗
+dd 是如何把 U 盘分成两个区的？
+关于安装 vmware workstation pro 14 的意见
+Tumbleweed 安装后，怎么安装 nvdia 旧显卡的驱动，我找不到方法
+请求改 nick
+呃，粗大事了，刚才改 SSH 端口忘了配防火墙
+论坛里有个叫 google bot 的人是机器人么？？
+Re: OpenSUSE 能支持 48 个 CPU 核心吗
+Re: 域名怎么是 suse.org.cn 呢？
+Re: fcitx 在 Sublime text2 下的问题
+在 suse 翻译网站注册了
+球凤凰姐 minecraft 地址
+关于 irc
+关于 OBS 的 tutorial
+苏苏 求推广 ppt
+Re: 两个新的活跃的 GALgame 引擎
+关于 Atheros 网卡驱动
+姐，可以告诉我你的 gmail 吗？
+请问论坛的 ipv6 还在正常工作吗
+捐献 rmb30
+Re: 论坛切换为 Positive SSL CA2 证书 firefox 浏览器回复和私信出现 SSL 错误
+请教一下，fstrim 对 LVM 上的逻辑分区管不管用？
+会不会是 initrd 识别不到 usb 硬盘？
+Re: [教程] 编译安装 broadcom 家族官方无线网卡驱动的方法
+南开大学 Linux 用户协会希望与贵社区建立联系
+请问还能在帮忙印制 30 张 openSUSE13.1 的光盘吗
+希望 SUSE 社区和 Deepin 社区能共同举办活动
+需要又拍 cdn？
+我想知道更多微信 Gossip 的细节流程
+修改了一下论坛的 favicon
+Re: 13.1 后的文档似乎搬到了 activedoc.openSUSE.org
+求教 VIM
+Re: 请教怎么治疗我总是闪退的 eclipse
+Re: ASUS Web Storage 云存贮，只有 deb, 用 Alien?
+Re: [已解决] 双显卡 装 Nvidia 显卡驱动以后开机闪屏 + 花屏
+新服务器的 root?
+Fwd: 新服务器的 root?
+我装了后 libfmodex 后，安装源里面的三国杀依旧提示缺少 libfmodex
+Re: fcitx 不能自动繁转简. 原: 刚转用 openSUSE，真心好用！
+想买 vps 玩一玩，求问最优惠价格是怎样啊？
+Re: 求助 关于 suse kde 桌面双显示器的问题
+你加我 q 吧
+安装 bumblebee
+Re: 怎么把 QMessage 提示框中 Yes No 等英文按纽改成中文 确定 取消。
+参与官方文档翻译,求添加 id
+实在对不住，这次的 Gossip 我忘了
+关于打包 rpm
+报了个统计课，要学 r 语言
+你的 blog 挂了……
+哎。没找点看到 LaVie Z
+Re: 强烈推荐百度云 linux 客户端
+请帮忙删除我的帖子《连接不了云梯 vpn》
+请问如何运行 Unity 桌面
+你好，求教 mpv 安装问题
+SLED12 安装 kde 求助苏姐
+求推荐 lisp 资料
+我在 rtfd 上弄了一个收录逻辑谬误的网页
+关于 gossip 的事情
+Re: 关于 gossip 的事情
+Re: 关于 gossip 的事情
+Re: 删除 google 字体应该没有问题吧
+请教怎么使用 setcap 命令
+openSUSE 42.1 在安装 audacious 之后，默认使用 audacious 打开文件夹
+求 labviewfor linux
+Re: 大家觉不觉得 openSUSE 有点臃肿啊
+管理员你好。。提个小 feature。。
+Re: suse shutdown 是如何关机的，我该如何实现拦截 shutdown 然后操作它
+您是否可以编辑一个 leap42.2 使用的 wiznote
+论坛的 favicon 貌似没有改
+[已解决] 求助 upgrade 到 Tumbleweed 之后内核报错
+新装 leap4.3 一切正常，可是每次装完 VMware 14 后鼠标和无限网卡就不见了
+火狐 57 怎么看不了优酷？而且无法使用 flash？
+openSUSE Tumbleweed 上如何配置 tomcat？
+Tumbleweed 下启动 nginx 显示 403 Forbidden
+关于开机后服务自启动，只能创建 systemd 服务？
+最近 Tumbleweed 装 kodi 不能放视频了
+推荐用 appimage 打包游戏
+今天 Tumbleweed dup 出问题了
+Tumbleweed 11月25号zypper dup 更新后无线连不上
+关于 atom 可否加入到源里面
+在终端里为什么不能使用 kwrite 替代 vim？
+大家都使用的哪个国内源？每次 zypper ref 的时候好慢。。
+Tumbleweed 改那个 limit (fd 数量限制) 的配置文件没用了?
+如何使用源安装 Oracle Java
+10 个最好的 Linux 桌面环境
+重装 opensuse leap 42.3，分区界面里如何避免将 /home 分区格式化
+系统启动有问题 started update utmp about system runlevel changes
+VMware Workstation 中 openSUSE 虚拟机分辨率问题
+yast 和 zypper 下载软件时有没有方法同时下载多个包
+最近在学校推广 Linux，不知道大家有没有什么建议。
+寻找 openSUSE 里面 SVN 客户端
+"求教 42.3leap 安装 NVIDIA 驱动的方式" 主题需要版主的注意
+终于回 opensuse 了
+为什么那么多人不推荐 linux 用 a 卡？
+无法上传 pdf
+如何在 tapatalk 添加论坛？搜不到啊
+升级之后 py3 各种缺失
+[已解决] 我的 shadowsocks-qt5 显示连接了服务器但是还是无法访问谷歌
+关于 suse 12.2 双屏的扩展屏问题，显卡是 gefore gt 710
+3D4Medical 类似软件在 linux 中是否存在？这个应该是人体的构造软件
+有哪个笔记本预装 linux 的？
+SUSE 最新的企业版居然默认 gnome！！！
+学 linux 要学哪些？
+装不了系统好烦啊，联想的平板二合一 win10 系统
+[已解决] 有没有类似于 MacOS 的 dock 一样的软件
+[已解决] 重启桌面进不去的 bug
+如何使用 opensuse 赚钱？
+无法复制文件到 u 盘咋办
+今天的更新是修复 cpu 的 bug？
+虚拟一个 Mac os High serria 10.13 in opensuse42.3
+42.3 可以打 intel 补丁了？
+怎么升级 vim？（能不能把十个字的限制给改了？）
+今天才发现那个设置终端透明的 bash 脚本配置是通用的，改改 fish 就能用了
+如何安装永中 office
+kvm 的显卡直通不需要在 linux 上安装显卡驱动吧
+wine 怎么配置 32 位 wineserver
+Chrome 占用 cpu 过高
+这是 suse 什么版本呀
+发一个 BlueFish 安装的错误问题
+【求助】系统安装失败，rpm 安装包 checksum 校验码与期望值不匹配
+系统配置好，win 快速启动关闭重启异常 startx 服务打不开
+Libreoffice 在 openSUSE 风滚草版本中，菜单显示有点奇怪
+【安装问题解决】win10&EFI 下安装 openSUSE
+openSUSE 42.3 中 Qt Creator 无法输入中文
+使用 Snapper 报错
+使用 grub2 启动 kaspersky 杀毒 iso 光盘
+[已解决] openSUSE 13.2 卸载自带 Firefox 50 却强制安装 Thunderbird
+打包 xournalpp 经验总结
+SSD 磁盘格式选择，brtfs 还是 ext4?
+openSUSE 安装 VLC 媒体播放器问题
+有装上 anbox 的？好用？
+2018Y1M31D --- 系统升级之后 CPU 占用特别多
+安装 QQMusic 新版本成功
+ISO 更新了 suse/setup/descr/ 后，安装出现 Wrong Digest 错误
+网頁上显示的 IP 和电脑上的不一样
+Leap 15 的 beta 出了
+ISO 里面的 content 文件为什么修改了就进不去呀？
+[求助] amule-dlp 配置源代码出现 WARNING 和 error
+KDE Plasma 缺少 Menubar style 设置栏的问题
+Thumbleweed 升级后，出现 SDDM 一片空白，KDE 桌面一片漆黑的问题
+hdparm 的 M 选项失败
+昨夜升级 nvidia 一个什么东西 进不了图形界面 现在连 grub 都毁了
+能不能给我一份您 wine 安装这些 windows 下软件的详细步骤呢？？谢谢您了
+Linux Journal 发起投票：你认为最好的 Linux 发行版是哪个？
+Konsole 的 bug
+技嘉 970 主板安装 LEAP42.3，网卡无法驱动，何解？
+wps 的 linux 版本是不是死掉了
+最近出现的 locale 报错问题，附（部分）解决办法
+滚动版本无法识别 usb3
+好多浏览器不能播放 SWF 文件
+如何修复 office 文件关联
+Win10+openSUSE 双系统如何删除 openSUSE
+win10 和 openSUSE 双系统双硬盘 UEFI 安装
+KDE 环境下 firefox 不能查 man 文档
+滚动版上的 bumblebee 和 nvidia 驱动无法正常工作
+42.3 对 AMD 的锐龙支持如何？
+怎样升级 acpi 驱动
+求救 win10+SUSE 双系统修复
+终于知道为什么 ubuntu 在中国用户这么多了
+openSUSE 有没有类似 windows 防火墙的防火墙？
+其它系统里 kate 可以这样编辑系统文件，suse 怎么操作？
+Emacs 没有图形界面？什么奇葩 bug！
+插入移动硬盘，自动执行移动硬盘里的 shell 脚本
+命令 nvidia-settings -l 该放哪里
+依你看，我现在敢把 nvidia 的驱动装上去么？
+有没有 tumbleweed 的 nvidia 国内源
+求问 wayland 下屏录解决方案有哪些
+关于 yast2 language 模块，添加语言支持和 iBus 的几个问题
+截图软件 flameshot
+问个 gentoo 中编译 qtgui 出错的问题
+[已解决] qemu-img 报错 drive with bus=0, unit=0 (index=0) exists
+国内哪个镜像站同步了 openSUSE Leap aarch64 的镜像？
+Fcitx 不应该依赖 fcitx-qt4 以及 fcitx-gtk2
+[已解决] 最近 KDE+TW 挂载可移动媒体好像有点问题。
+42.3 上 rsyslog 与 systemd-logger 冲突，有解决办法吗？
+Tumbleweed 可以安装 Leap 源里的软件？
+wine 报错 exe 格式无效
+openSUSE Tumbleweed 里的 kubic 镜像是什么来的？
+热备份系统可以用 dd 吗？
+用 btrfs 创建的 raid0 能用做启动盘吗？
+42.3 版 vsftp.conf 位置不一样？
+Tumbleweed 用 YaST 创建 LDAP 服务器的教程
+zypper in 跳过 rpm 签名校验
+如何跟踪一个已知 pid 的进程？
+Tumbleweed 每次更新以后，旧的 iso 为什么会失效？
+在 SSD 中安装滚风草，不知道怎么配置优化
+[已重装 Debian] sudo zypper up 之后出现的一系列问题 (感觉像是文件系统的问题)
+Gnome3 跟 nautilus 的关系特别顽固
+LVM 用 pvmove 把一个 lv 均分到两个盘上失败求助
+树莓派 Tumbleweed 的一个严重 BUG
+开启热点需要输入 root 密码
+我想在平板电脑上试一下 opensuse，不知道行不行
+KDE 桌面下 Firefox 启动缓慢
+Xfce 的一个 bug，系统更新之后莫名其妙修复了
+在笔记本上启动安装时 capslock 闪烁
+[求助] 42.3 安装 VirtualBox 错误 Kernel driver not installed (rc=-1908)
+笔记本安装 leap15 和风滚草均卡在前面
+更新完 leap 15 根目录都满了怎么释放空间啊
+[已解决] leap15.0 的 bumblebee 源是有变化么？
+连 g++ 都没有了？qmake 都没有了？
+关于安装 openSUSE 15.0 后，桌面卡死问题的解决方法
+[求助] 用 Grub2 引导 TW 的 LiveCD 提示 System Halted
+libimobiledevice 过期无效 | 请哪位方便去 Factory 提交一下更新？
+openSUSE Leap 15.0 支持 R5 2400G 吗？
+玛丽姐，这个 USB 无线网卡还是有问题
+老硬件装 leap15 的体验
+Leap 15.0 安装 guake 目测有点问题
+请问 leap15 chrome 不停闪退怎么解决？
+想买张亮机卡搞显卡直通 打算买 A 卡
+怎么获取 obs 用户源的旧版本包
+弄显卡直连的时候 Xorg 出问题了……
+有没有可能用 GTK 重写 KDE
+GTK 软件 Parcellite 自动在 kde 环境中启动的问题
+用 HDMI 连电视时，桌面总是比显示屏大一号。求解决
+U 盘安装 openSUSE15, win10 无法引导，求助
+Looking Glass 用来搞 KVM 直通 可用性是 Ok 了 顺便问一下 libvirtd 怎么弄客机直连主机 SMB 呢？
+这按了 Enter 系统是不是要炸
+奇怪的 DNS 和 mDNS 问题
+apache 全部服务启用 ssl
+fedora 上使用 zypper 搜索软件
+opensuse tumbleweed 如何解决 KillerE2200 网卡驱动？
+有办法快速检索 NFS 或者 samba 上的文件吗？
+leap 15，安装 mendeley 失败，求帮助！！！
+笔记本更换硬盘后双系统 UEFI 启动，suse 启动项不见了
+KDE 能设置全局 Emacs 风格快捷键吗？
+HD4600 安装 Leap15.0 的问题求助
+新安装的 Leap 15 经常性出现 usb 设备失效？
+这个 repodata 目录是用什么工具生成的
+菜鸡搞半天还是弄不好 samba，求助……
+你能发几张 yast 中 samba 设置的截图给我吗？谢谢，我就差设置好 samba 了。
+openSUSE TW 更新后 bumblebee 没办法使用 nvidia 独显
+42.3 怎么安装最新版的 emacs？
+opensuse leap 15/GNOME, 系统语言默认为英文 如何启用 ibus-libpinyin
+软件源里面提供了 leap15.1
+用 firefox 打开阿里云,必死机
+关于 kde 配置 “显示桌面” 快捷键及任务栏图标
+现在上 v2ray 了 感觉还行
+运行 yast2 Software Management 报错
+openSUSE Leap 15 更新 openSUSE-2018-826 补丁无法进入登陆界面
+开机登录闪动，无法进入 X Server，命令行也难以操作
+关于 PHPBB3 迁移到 discourse 密码导入问题
+[已解决] 请问 smplayer 播放速度能设置 1.5 倍速吗？
+openSUSE Tumbleweed 下使用 latte-dock 遇到问题
+有点怪怪的 samba 性能比 NFS 还好点？
+三块硬盘 UEFI GPT 分区安装了 openSUSE Leap 15 与 windows 7，如何将 windows7 加入启动项
+fail2ban 配置以及 iptables 的规则
+OBS 不能自动去 git 仓库扒源代码吗？
+打包了 Pop 的 gnome 主题
+求助：放一晚上什么都不做总会 sudo unable to xxx -Read-only filesystem
+如何得到 drm 和 lzma 的静态库文件？
+现在 openSUSE 社区什么情况
+PulseAudio 这东西是 GUI 限定吗？
+安装 openSUSE leap 15.0 卡在绿条位置
+重装的话 如果 home 是 btrfs 子卷的话会被格式化吗？
+更新的时候一直安装 rpm 下面一直有 /sbin/ldconfig: /usr/lib/libgudev-1.0.so.0 is not a symbolic link
+感觉 leap15 更新没有以前的版本那么频繁了
+leap15 怎么升级 gnome3.30
+双系统，重装 windows 后 grub 没了
+有没有人跟我一样 NetworkManager 经常死掉
+求助：网络设置的 Mac 地址设置
+如何实现 aria2 图形化操作
+如何更新 grub 配置
+dell vostro v13 能不能装 opensuse?
+安装 openSUSE leap 15.0 卡在绿条位置
+openSUSE 15.0 安装卡在绿条 在启动项加 acpi＝off，没行
+打算为 Porteus 4.0 从主线编译内核 那么怎么生成 initrd 啊
+如何搭建 mipsel 和 mips64 的交叉编译环境？
+关于 Deluge 下载速度的疑问
+哪位知道这个 KDE 的主题叫啥？
+chromium 69 登录 http://bbs.mydigit.cn 失败
+Linux 上玩文明 5 是按论坛 bumblebee 那个教程设置显卡吗？
+编译了个 VNote2.0
+安装 bumblebee 后运行 optirun glxgears 出错
+Iron 基于 Chromium 的浏览器
+TW 中 dota2 经常崩溃
+在 Google Cloud Platform 安装 openSUSE
+pam 实现用密钥或者 Google 身份验证登录 SSH 吗？
+风滚草没有可用的 android-tools
+我明明在用 ssh-ed25519 为毛 SSH 说我在用 ECDSA
+mbp 2017 安装 leap15
+请教下 SLES 安全加固方法，谢谢。
+检查 SUSE12 sp3 系统高危漏洞，下载补丁包并加固升级。
+SUSE Linux Enterprise Server 12 SP3 有没有类似 Windows 用的 360 之类的修复工具
+请问有没有人安装 gns3
+升级后 vbox 不能启动虚拟电脑
+grub2 有没有弄 zstd 的计划？
+多屏幕 缩放 字体模糊的 bug
+想删除 home 子卷结果删不了
+浏览器无法在 b 站下开 html5 视频。
+KDE 中的一些软件能独立于 KDE 吗
+请问 krb5-plugin-preauth-pkinit 包可以在 SUSE Desktop 上使用吗
+apache 能不能只监听 IPv6 请求？
+关于 kvm 显卡直通的问题
+openSUSE Leap 15.0 架设 pptp (VPN) 的正确流程?
+[解决] Win7 无法访问 Leap15.0 的 samba 共享文件夹
+网络切换后 firefox 连不上网
+openSUSE 弹出 U 盘反应很慢，没之前用的 Debian 快。
+vps 被牆了日了狗的 GFW
+想解决 wine 退出不彻底的问题，只能写个看门狗？
+装上 openSUSE 无法调节屏幕亮度
+需要学习开发 yast 指南
+安装 N 卡驱动后，字体变模糊了。
+Linux 下 360 随身 wifi3 驱动应该下哪个？
+目前内核是不是还不支持 9 代酷睿和 Z390 芯片组
+能不能在不重新编译安装 ffmpeg 的情况下直接使 libx265 可用
+KDE 的 conky 底部颜色变化
+源里看到有 current 和 stable，这两个有什么区别。
+如何安装 N 卡的闭源驱动？
+打包了個 claws-mail 客戶端添加了中文支持
+求个下载站的部署方案 希望使用 BT 分享资源
+libreoffice calc ctrl+o 打开 ods 格式问题
+请问 suse 有公开 CVE 的安全数据接口吗？
+请问大佬 Shadowsocks-Qt5 连接上了，但是仍然无法翻墙是什么原因呢？
+为同样使用 shadowsocks-qt5 的小伙伴铺路-新手向
+各位大佬，请问你们知道 ocs-store 怎么下载主题和图标等素材吗？
+openSUSE Leap 15.0 远程 vnc 非 root 用户出现黑屏
+用镜像更新 Tumbleweed 会 GG 吗？
+怎么把 openSUSE 的终端添加到右键
+为啥 TW 挂载硬盘太慢呀
+怎么不能识别 u 盘呢？虚拟机 win10 都可以啊！
+uget 加 aria2 下载 bt 和 qb 速度差不多啊！
+通过 yast 升级不兼容不知道啥问题
+"openSUSE 主席 Richard Brown 的 2018年 报翻译" 主题需要版主的注意
+有没有人觉得 ss 命令的输出太宽了
+为什么我的 SUSE12 主机名修改后总会自己改回去
+开 yast 软件管理时候无法打开，请问这个是需要安装什么包么？
+发现一个超好用的工具 KDE Connect
+请教 apache2 配置问题
+systemctl 无法启动 redis
+想尝新 Fcitx5，应该用哪个库
+openSUSE42.3 找回 root 密码（图文）
+为 openSUSE 打包了 Chez Scheme
+openSUSE 也能执行有 apt-get 命令？
+HP AMD 锐龙 2005u 安装 opensuse 15 成功（BIOS 更新到最新状态了）
+能关闭 usb 的省电模式吗？
+请教一下 shell 问题
+baloo-file 吃了我非常多的 cpu 资源……
+也许是显卡直通的利好？FreeSync 的支持将在 Linux4.21 中出现
+Transmission Qt for Windows 的 LPD（本地节点发现）感觉是瘫痪了
+一键安装 NVIDIA 的方式安装驱动，启动失败屏幕闪烁
+我新建的 obs 私有服怎么不停的重复编译项目里的包？
+Parallels Desktop 中安装 openSUSE Tumbleweed 的 Parallels Tools 问题
+关于 yast 和 zypper 升级问题
+求助，KDE 中的 knotify 被 xfce4-notifyd 替代
+[解决] Leap 15.0 grub2-mkconfig 无法找到 Win10
+YAST 问题，无法运行 software repository 和 management
+风滚草 KDE 右上角图标问题
+有没有用 mininet 的大佬，帮忙解决下这个尴尬的问题
+关于登录界面所在 tty 的一个问题 (漏洞?)
+kwin + 非 KDE = bug ?
+vmware 导致 ctrl 键失效
+opensuse leap 15.0 更换鼠标主题在 chromium 中显示异常？
+提个建议:希望 openSUSE 的 LiveCD 做的像 Ubuntu Desktop 版本或者其他发行版的桌面版本一样，更加完善一些
+重新安装 Tumbleweed，休眠不正常，帮我看看啊！
+"感觉 wayland 还是不太稳啊" 主题需要版主的注意
+免费送 Python 基础教程第二版还有 Windows 程序设计
+今天 zypper 升级 freerdp 后 Remmina 等远程工具用不了了
+Ubuntu 的这个特效 openSUSE 有吗，怎么开启的！
+键盘在 Linux 下 Ctrl 输出为 Shift 的可用驱动
+如何实现 Samba 可读可写但不可删除？
+如何配置 KDE 默认文本编辑器为 gvim
+服务器能登录然而无法正常 FQ
+360connect VPN 有办法么？(chromium 能用 java 不？）
+关于 Packman 的收录标准
+openSUSE 与其他发行版运行 Firefox/Chrome 性能比较
+关于内核自带的 amdgpu 驱动
+如何通过命令使用不同的 vsftpd.conf
+GNOME SHELL 下的 openSUSE 的自带搜索工具
+怎么查看另一块硬盘的 home 目录下面的文件
+另一种思路：使用 flatpak 版本的 Deepin 应用
+openSUSE Tumbleweed 下使用 btrfs 文件系统的都是勇士
+有用 suse-prime-bbswitch 的嘛？
+linux 下安装 Android x86 后提示没有 kernel
+[已解决] tumbleweed 和 leap 的字体渲染不一样嘛？
+java12 安装后找不到 jre 目录
+opensuse 15.1 升级后卡在 Login 界面
+已解决：双系统，已装好 win10，求助 LEAP15 的分区
+zypper 有类似 yum-axelget 的加速插件吗
+Plasma 5.16 即将支持 Nvidia 闭源驱动
+TW 最新的里边没有 DEFAULT_DM 了？
+刚刚装了 deepin 感觉不错
+LEAP 15 安装 NVIDIA Driver 以后又出问题了
+大家有用 Foxit PDF Reader 的吗？KDE 更新后出状况了
+安装 openSUSE leap 15.0 卡在绿条位置
+找不到 telepathy
+Leap 15 支持 AMD 最新的锐龙 3000 系列 APU 了吗？
+关于 vaapi 和 vdpau
+火狐浏览器解码 ffmpeg
+现在 chromium 上是如何使用 flash 播放器的？
+VIM 安装 youcompleteme 插件报错
+安装 opensuse 真的是一个漫长的过程啊
+Manjaro 的 kde 天天崩溃
+有关凌动 Atom D525 安装系统问题求教。
+每次打开 chromium，都弹出输入密码解锁钥匙环
+怎么能让 rescue cd 或者 livecd 正常启动呢？
+把 kde 换成 gnome 怎么搞？
+双显卡，集显跑不行，而 ubuntu 和 windows 却可以
+镜像站都 GG 了？字数补丁
+我就吐个 openssl 槽
+我无法在 Broadwell 平台上使用 coreboot 对吗？
+我今天才发现 dl.google.com 竟然没有被墙！
+请问下有没有大佬知道这是要装哪一个 qt？
+obs 为什么有些不编译？编译成功但找不到包？还有一个可能是 opi 的 bug
+我在 oSC 2019 现场 by @guoyunhe
+15.1 的 YaST 网络设置不了
+怎样可以让 KDE 环境记住 WLAN 密码，每次登录桌面都得输一遍密码？
+ryzen3000 真🐔儿 NB 啊
+升级到 opensuse 15.1 之后报错 Segmentation fault (11)
+又来打扰大家了，请问 opensuse15 下面有没有好的系统备份软件？
+洋大人也看盗版，关于我的 VPS 被 20 世纪福克斯投诉了这件事
+开机提示 ksplashqml 非正常关闭，有碰到的吗？
+42.3 怎么将系统打包备份成 ISO
+openSUSE Leap 15.1 发行版登陆 Windows 10 商店
+FSearch 基于 C+GTK 的文件搜索软件
+问个 yast2-docker 如何使用的问题
+风滚草 i586 镜像需要至少 700MB 的内存？
+在更新大量包时如何解决 Btrfs 快照导致的磁盘空间不足的问题
+TW 的 opensuse_zh 源很久没更新了
+15.0 升级至 15.1 后 YaST 界面出现一些问题
+pam_kwallet 把 sudo 报废了
+openSUSE Leap 15.1 安装 smplayer，怎么安装最新版本，也就是 openSUSE Tumbleweed 对应的 19.50
+打开 IDEA 奇慢，无报错信息
+驿窗长期在本论坛提供 LibreOffice 软件的使用 / 操作咨询～
+修改系统默认 go 的软件版本
+如何推送 kernel 驱动的 patch 给 opensuse
+Leap 15.1 的 WSL Appx 包，直链
+opensuse 应用的 rpm 包和 suse 是啥关系？
+分享一个 opensuse15.1 可以用的 UG_NX12.0
+安装 TW 时 BIOS 该怎么设置？
+rpm 系 linux 装 dpkg 有何意义？
+新版本的网易云音乐要 glibc2.27
+求教关于 swap 交换的触发条件与规避 swap 的技巧
+"百度云盘出 linux 版本了，谁测试一下 openSUSE 可以用不啊！" 主题需要版主的注意
+"简单解决 podman 在非 root 用户下的报错 (Tumbleweed)" 主题需要版主的注意
+简单介绍 Leap 中的 Podman 与 Buildah 以及镜像构建
+关于 SSD 设置 swap 问题
+openSUSE15.1 默认的网络管理是 wicked？
+米聊出 linux 版本了
+发现了一个骚操作，hyper-v 带实体盘里的 linux
+BCM94360hmb 无线网卡，linux 下使用 networkmanager 总是连接失败（最终会成功:rofl:）
+催更 Leap 15.1 的 Vagrant Box
+双系统 + 手机 + 平板，使用 Chrome 如何同步密码书签
+发现镇里对于 linux 的热情大减啊
+openSUSE 15.1 关机出现 Reached target Shutdown
+关于 networkmanager 桥接网络问题
+SUSE 招聘 GNOME 工程师一位
+如何禁用 Leap 中的软件更新检查，这功能每次开机都在自动运行。
+为啥 opensuse Tumbleweed 默认的更新源经常崩啊
+使用 ctrl+alt+Fx 呼出 tty 界面，但只有 F7 和 F4 能呼出 tty7/4
+BCM94360hmb 无线网卡，linux 下使用 networkmanager 总是连接失败（最终会成功:rofl:）
+今天突然无法打开 NTFS 分区了
+滚动版开机画面怎么实现的，过渡顺畅，没有跳动和黑底白光标，看起来像 win10 一样
+>>> 直播编译 Fuchsia <<<
+打包了个支持 TIM 的 wine appimage
+opensuse 能不能像 ubuntu 一样，iso 解压放到 u 盘可以直接使用
+如何关闭 ryzen 的管理引擎？
+如何保留 cpupower 的设定结果？
+有人知道为什么 opensuse 为什么在 grub 中只保留 2 项 kernel 么？
+使用 podman 以非 root 运行容器，局域网无法访问
+问个关于 git 的问题
+kmail 如何设置 qq 邮箱
+双显卡 prime 配置下的 vaapi 设置
+dde 又换 wm 了？？
+3900X 到手了……还是有点没有达到预期的感觉……主要是 X570 的锅吧
+openSUSE 的 NVidia 驱动仓库消失
+请教 zypper 安装源问题
+笔记本新装 Leap 15.1 识别不出声卡型号。
+请教一个关于 zypper 输出的问题
+大佬们，openSUSE 命令行下怎么配置 UTF8 字符集
+关于 brtfs 的问题
+最近 google-chrome 源无法更新了？
+驿窗长期在本论坛提供 Flowblade 入门咨询
+驿窗长期在本论坛提供 Audacity 入门咨询
+驿窗长期在本论坛提供 virt-manager 入门咨询
+Tumbleweed 开机无法连接 Wi-Fi
+Wi-Fi 环境下开机 ntp 服务异常
+昨天给自己的船装了风滚草，准备试试 proton 狒狒 14
+晒下 OS X 风格的桌面
+请教，机械革命-深海幽灵 Z2-G 安装 openSUSE Tumbleweed Gnome 双显示器无法点亮副显示器
+打包关于 spec 文件的宏:%suse_install_update_script
+今日打包：微软 Cascadia Code 字体
+[技术贴] 吐槽一下 libqt5-base 的奇怪补丁
+近期新装 TW 风滚草启动太慢的解决方法
+惠普的战二代 AMD ryzen 3700u 笔记本 Leap 15.1 可以用，Manjaro 18 却无法 boot。。。。
+web spotify 在 chromium 浏览器无法使用的问题
+d.o.o 的源都挂了，是 obs 有啥新政策吗
+为什么 openSUSE 和 CentOS 都不用长期支持的内核
+关于 KDE 复制的一个奇怪问题
+openSUSE Leap15.1 的 KDE 桌面环境怎么还是保持在 5.12.8LTS? 5.12.9LTS 都发布一段时间了
+有多少人在用 plasma desktop？
+想问一下 OBS 上已经创建的包如何修改名字？
+请问公司员工如果用 openSUSE 的话需要收费么
+关于 NetworkManager 重启后 DNS 不生效问题
+我竟然今天才知道 Yakuake
+Caddy2 貌似把配置文件改成 json 了……
+ubuntu 逐渐 windows 化
+ipv6 下的 DDNS 怎么搞？
+arm64 系统跟 armhf 系统有啥区别？？
+腾讯 QQ Linux 版正式回归
+安装了 KDE，但是却启动不了
+一次普通的升级后我的 hdmi 音频输出没了
+请问如何取消 Tumbleweed 更新时自动下载安装 libreoffice？
+无法加载 nvidia 驱动
+突然发现马化腾 10月24号发布官方 QQ 版了，不知道兼容得怎么样
+安装时如何启用对 RAID 硬盘的支持？
+求个 bcm 的无线网卡驱动
+ubuntu 的 snap 怎么清理
+为什么 openSUSE15.1 安装会找不到光盘
+为什么我的 samba 始终不通啊
+btrfs 的去重有丶东西啊……居然能让 img 镜像实际上实现弹性储存占用……
+wine 报错 wine No matching GL pixel format available 怎么解决啊
+openSUSE Leap 15.1 下面使用 vnote 中文无法输入
+一个关于 KDE 文件索引的 BUG
+请问 opensuse_zh 源里的 wps-office 怎么用？
+请问关于 Tumbleweed 版本的软件源配置
+Tumbleweed 里用户自定义的 fontconfig 文件怎么不起作用了？
+1183 topic titles were updated.
