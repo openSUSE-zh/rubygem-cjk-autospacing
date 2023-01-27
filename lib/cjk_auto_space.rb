@@ -5,7 +5,7 @@ rescue LoadError
   require "cjk_auto_space/cjk_auto_space"
 end
 
-String.class_eval do
+class String
   def cjk_auto_space!
     sub!(self, self.cjk_auto_space)
   end

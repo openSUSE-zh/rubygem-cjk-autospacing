@@ -6,7 +6,7 @@ gcc ./cjkpad.c -o cjkpad `pkg-config --libs --cflags icu-uc icu-io`
 #include <string.h>
 #include <unicode/utext.h>
 /*#include <unicode/ustdio.h>*/
-#include "ruby.h"
+#include <ruby.h>
 #include "extconf.h"
 
 static UErrorCode err = U_ZERO_ERROR;
@@ -21,7 +21,117 @@ typedef struct gra {
   bool cjk;
 } gra;
 
-UBool u_isMarkdown(gra* g, bool prefix);
+UBool u_isMarkdown(UChar32 cp, bool prefix);
+
+char* padCjk1(const char* str) {
+    size_t size = 1024;
+    char* formatted = calloc(size, sizeof(char));
+    int count = 0;
+    int begin = 0;
+    int end, lastCjk, lastNonCjk;
+    UChar32 prev_cp, lastCjkPlusCp, lastNonCjkPlusCp;
+    UText* ut = utext_openUTF8(NULL, str, -1, &err);
+
+    for (UChar32 cp = utext_next32From(ut, 0); cp > -1; cp = utext_next32(ut)) {
+      end = utext_getNativeIndex(ut);
+      int curr_blk = ublock_getCode(cp);
+      UBool cjk = u_iscjk(curr_blk);
+      UBool nonCjk = !(cjk || u_isspace(cp) || u_isMarkdown(cp, true));
+      int length = end - begin;
+      if (lastNonCjk == begin) {
+	lastNonCjkPlusCp = cp;
+      }
+      if (lastCjk == begin) {
+	lastCjkPlusCp = cp;
+      }
+
+      if (begin > 0) {
+        if ((cjk && begin == lastNonCjk) || (nonCjk && begin == lastCjk)) {
+   count++;
+   if (count > size-1) {
+      size = 2 * size;
+      formatted = realloc(formatted, size * sizeof(char));
+   }
+   strcat(formatted, " ");
+}
+
+/*你好world_*哈哈哈*_hello
+你好_*hello*_哈哈哈world
+你好world哈哈哈*/
+
+if (cjk && begin > lastCjk && u_isMarkdown(lastCjkPlusCp, true) && u_isMarkdown(prev_cp, true)) {
+   count += 2;
+   if (count > size-1) {
+      size = 2*size;
+      formatted = realloc(formatted, size * sizeof(char));
+   }
+   char* temp = calloc(begin-lastCjk+3, sizeof(char));
+   temp[0] = ' ';
+   int i, j;
+   for (i = lastCjk, j = 1; i < begin; i++, j++) {
+     temp[j] = formatted[i];
+   }
+
+   if (!u_isspace(formatted[begin])) {
+     temp[j] = ' ';
+   } else {
+     count--;
+   }
+
+   for (i = 0, j = lastCjk; i < strlen(temp) ; i++, j++) {
+      formatted[j] = temp[i];
+   }
+   free(temp);
+}
+
+/*你好world_*哈哈哈*_hello
+你好_*hello*_哈哈哈world
+你好world哈哈哈*/
+
+if (nonCjk && begin > lastNonCjk && u_isMarkdown(lastNonCjkPlusCp, true) && u_isMarkdown(prev_cp, true)) {
+  count += 2;
+  if (count > size-1) {
+    size = 2*size;
+    formatted = realloc(formatted, size * sizeof(char));
+  }
+  char* temp = calloc(begin-lastNonCjk+3, sizeof(char));
+   temp[0] = ' ';
+   int i, j;
+   for (i = lastNonCjk, j = 1; i < begin; i++, j++) {
+     temp[j] = formatted[i];
+   }
+
+   if (!u_isspace(formatted[begin])) {
+     temp[j] = ' ';
+   } else {
+     count--;
+   }
+
+   for (i = 0, j = lastNonCjk; i < strlen(temp); i++, j++) {
+      formatted[j] = temp[i];
+   }
+   free(temp);
+}	
+      }
+
+      count += length;
+      if (count > size-1) {
+        formatted = realloc(formatted, size * sizeof(char));
+      }
+      strncat(formatted, &str[begin], length);
+
+      begin = end;
+      if (cjk) {
+        lastCjk = end;
+      }
+      if (nonCjk) {
+	lastNonCjk = end;
+      }
+      prev_cp = cp;
+    }
+
+    return formatted;
+}
 
 char* padCjk(const char* str) {
     char* formatted = calloc(1024, sizeof(char));
@@ -63,9 +173,9 @@ char* padCjk(const char* str) {
 
       //u_printf("%C%C%C\n", prev->cp, curr->cp, next->cp);
 
-      if ((u_isMarkdown(curr, true) && !prev->cjk && !u_isspace(prev->cp) && next->cjk) || // d*哈
-         (!prev->cjk && !u_isspace(prev->cp) && !u_isMarkdown(prev, true) && curr->cjk) || // *哈
-         (!curr->cjk && !u_isspace(curr->cp) && !u_isMarkdown(curr, false) && prev->cjk)) { // 哈*
+      if ((u_isMarkdown(curr->cp, true) && !prev->cjk && !u_isspace(prev->cp) && next->cjk) || // d*哈
+         (!prev->cjk && !u_isspace(prev->cp) && !u_isMarkdown(prev->cp, true) && curr->cjk) || // *哈
+         (!curr->cjk && !u_isspace(curr->cp) && !u_isMarkdown(curr->cp, false) && prev->cjk)) { // 哈*
         filled++;
         if (filled == strlen(formatted)-1) {
           formatted = realloc(formatted, strlen(formatted) * 2 * sizeof(char));
@@ -78,7 +188,7 @@ char* padCjk(const char* str) {
       }
       strncat(formatted, &str[curr->start], curr->length);
 
-      if (u_isMarkdown(curr, false) && prev->cjk && !u_isspace(next->cp) && !next->cjk) { // 哈*n
+      if (u_isMarkdown(curr->cp, false) && prev->cjk && !u_isspace(next->cp) && !next->cjk) { // 哈*n
         filled++;
         if (filled == strlen(formatted)-1) {
           formatted = realloc(formatted, strlen(formatted) * 2 * sizeof(char));
@@ -87,16 +197,15 @@ char* padCjk(const char* str) {
       }
     }
 
-    //printf("\n%s\n", formatted);
     free(graphemes);
 
     return formatted;
 }
 
-UBool u_isMarkdown(gra* g, bool prefix) {
+UBool u_isMarkdown(UChar32 cp, bool prefix) {
   UBool markdown;
 
-  switch (g->cp) {
+  switch (cp) {
   case 0x005F: // _
   case 0x002A: // *
   case 0x0060: // `
@@ -164,6 +273,14 @@ UBool u_iscjk(int ublock) {
   return cjk;
 }
 
+static VALUE rb_pad_cjk1(VALUE self) {
+  Check_Type(self, T_STRING);
+
+  char* in = StringValueCStr(self);
+  char* out = padCjk1(in);
+  return rb_str_new_cstr(out);
+}
+
 static VALUE rb_pad_cjk(VALUE self) {
   Check_Type(self, T_STRING);
 
@@ -174,4 +291,5 @@ static VALUE rb_pad_cjk(VALUE self) {
 
 void Init_cjk_auto_space(void) {
   rb_define_method(rb_cString, "cjk_auto_space", rb_pad_cjk, 0);
+  rb_define_method(rb_cString, "cjk_auto_space1", rb_pad_cjk1, 0);
 }

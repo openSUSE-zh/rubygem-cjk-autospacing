@@ -6,5 +6,5 @@ require 'cjk_auto_space'
 
 ARGV.each do |arg|
   puts arg
-  puts arg.cjk_auto_space
+  puts arg.cjk_auto_space1
 end
