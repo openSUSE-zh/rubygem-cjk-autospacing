@@ -21,7 +21,7 @@ typedef struct gra {
   bool cjk;
 } gra;
 
-UBool u_isMarkdown(UChar32 cp, bool prefix);
+UBool u_isMarkdown(UChar32 cp);
 
 char* padCjk1(const char* str) {
     size_t size = 1024;
@@ -36,7 +36,7 @@ char* padCjk1(const char* str) {
       end = utext_getNativeIndex(ut);
       int curr_blk = ublock_getCode(cp);
       UBool cjk = u_iscjk(curr_blk);
-      UBool nonCjk = !(cjk || u_isspace(cp) || u_isMarkdown(cp, true));
+      UBool nonCjk = !(cjk || u_isspace(cp) || u_isMarkdown(cp));
       int length = end - begin;
       if (lastNonCjk == begin) {
 	lastNonCjkPlusCp = cp;
@@ -49,7 +49,7 @@ char* padCjk1(const char* str) {
         if ((cjk && begin == lastNonCjk) || (nonCjk && begin == lastCjk)) {
    count++;
    if (count > size-1) {
-      size = 2 * size;
+      size *= 2;
       formatted = realloc(formatted, size * sizeof(char));
    }
    strcat(formatted, " ");
@@ -59,10 +59,10 @@ char* padCjk1(const char* str) {
 你好_*hello*_哈哈哈world
 你好world哈哈哈*/
 
-if (cjk && begin > lastCjk && u_isMarkdown(lastCjkPlusCp, true) && u_isMarkdown(prev_cp, true)) {
+if (cjk && begin > lastCjk && u_isMarkdown(lastCjkPlusCp) && u_isMarkdown(prev_cp)) {
    count += 2;
    if (count > size-1) {
-      size = 2*size;
+      size *= 2;
       formatted = realloc(formatted, size * sizeof(char));
    }
    char* temp = calloc(begin-lastCjk+3, sizeof(char));
@@ -88,10 +88,10 @@ if (cjk && begin > lastCjk && u_isMarkdown(lastCjkPlusCp, true) && u_isMarkdown(
 你好_*hello*_哈哈哈world
 你好world哈哈哈*/
 
-if (nonCjk && begin > lastNonCjk && u_isMarkdown(lastNonCjkPlusCp, true) && u_isMarkdown(prev_cp, true)) {
+if (nonCjk && begin > lastNonCjk && u_isMarkdown(lastNonCjkPlusCp) && u_isMarkdown(prev_cp)) {
   count += 2;
   if (count > size-1) {
-    size = 2*size;
+    size *= 2;
     formatted = realloc(formatted, size * sizeof(char));
   }
   char* temp = calloc(begin-lastNonCjk+3, sizeof(char));
@@ -116,6 +116,7 @@ if (nonCjk && begin > lastNonCjk && u_isMarkdown(lastNonCjkPlusCp, true) && u_is
 
       count += length;
       if (count > size-1) {
+	size *= 2;
         formatted = realloc(formatted, size * sizeof(char));
       }
       strncat(formatted, &str[begin], length);
@@ -173,9 +174,9 @@ char* padCjk(const char* str) {
 
       //u_printf("%C%C%C\n", prev->cp, curr->cp, next->cp);
 
-      if ((u_isMarkdown(curr->cp, true) && !prev->cjk && !u_isspace(prev->cp) && next->cjk) || // d*哈
-         (!prev->cjk && !u_isspace(prev->cp) && !u_isMarkdown(prev->cp, true) && curr->cjk) || // *哈
-         (!curr->cjk && !u_isspace(curr->cp) && !u_isMarkdown(curr->cp, false) && prev->cjk)) { // 哈*
+      if ((u_isMarkdown(curr->cp) && !prev->cjk && !u_isspace(prev->cp) && next->cjk) || // d*哈
+         (!prev->cjk && !u_isspace(prev->cp) && !u_isMarkdown(prev->cp) && curr->cjk) || // *哈
+         (!curr->cjk && !u_isspace(curr->cp) && !u_isMarkdown(curr->cp) && prev->cjk)) { // 哈*
         filled++;
         if (filled == strlen(formatted)-1) {
           formatted = realloc(formatted, strlen(formatted) * 2 * sizeof(char));
@@ -188,7 +189,7 @@ char* padCjk(const char* str) {
       }
       strncat(formatted, &str[curr->start], curr->length);
 
-      if (u_isMarkdown(curr->cp, false) && prev->cjk && !u_isspace(next->cp) && !next->cjk) { // 哈*n
+      if (u_isMarkdown(curr->cp) && prev->cjk && !u_isspace(next->cp) && !next->cjk) { // 哈*n
         filled++;
         if (filled == strlen(formatted)-1) {
           formatted = realloc(formatted, strlen(formatted) * 2 * sizeof(char));
@@ -202,30 +203,22 @@ char* padCjk(const char* str) {
     return formatted;
 }
 
-UBool u_isMarkdown(UChar32 cp, bool prefix) {
+UBool u_isMarkdown(UChar32 cp) {
   UBool markdown;
 
   switch (cp) {
-  case 0x005F: // _
-  case 0x002A: // *
+  case 0x002A: // _
+  case 0x005F: // *
   case 0x0060: // `
+  case 0x005B:
+  case 0x005D:
     markdown = 1;
     break;
-  case 0x003E:
-  case 0x005B:
-    if (prefix) {
-      markdown = 1;
-      break;
-    }
-  case 0x005D:
-    if (!prefix) {
-      markdown = 1;
-      break;
-    }
   default:
     markdown = 0;
     break;
   };
+
   return markdown;
 }
 
