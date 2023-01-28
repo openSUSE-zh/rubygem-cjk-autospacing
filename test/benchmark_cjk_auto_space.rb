@@ -22,9 +22,9 @@ Benchmark.bm do |benchmark|
     end
   end
 
-  benchmark.report("cjk_auto_space1") do
+  /*benchmark.report("cjk_auto_space1") do
     arr.each do |str|
       str.cjk_auto_space1
     end
-  end
+  end*/
 end

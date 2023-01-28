@@ -12,17 +12,17 @@ static UErrorCode err = U_ZERO_ERROR;
 
 UBool u_iscjk(int ublock);
 
-typedef struct gra {
+/*typedef struct gra {
   UChar32 cp; // code point
   UBlockCode block; // unicode block
   size_t start; // starting pos at the str[]
   size_t length; // number of char needed (cjk is mostly 3 char)
   bool cjk;
-} gra;
+} gra;*/
 
 UBool u_isMarkdown(UChar32 cp);
 
-char* padCjk1(const char* str) {
+char* padCjk(const char* str) {
     size_t size = 1024;
     char* formatted = calloc(size, sizeof(char));
     int count = 0;
@@ -114,7 +114,7 @@ char* padCjk1(const char* str) {
     return formatted;
 }
 
-char* padCjk(const char* str) {
+/*char* padCjk(const char* str) {
     char* formatted = calloc(1024, sizeof(char));
 
     gra* graphemes = malloc(1024 * sizeof(gra));
@@ -181,7 +181,7 @@ char* padCjk(const char* str) {
     free(graphemes);
 
     return formatted;
-}
+}*/
 
 UBool u_isMarkdown(UChar32 cp) {
   UBool markdown;
@@ -246,16 +246,6 @@ UBool u_iscjk(int ublock) {
   return cjk;
 }
 
-static VALUE rb_pad_cjk1(VALUE self) {
-  Check_Type(self, T_STRING);
-
-  char* in = StringValueCStr(self);
-  char* out = padCjk1(in);
-  VALUE str = rb_str_new_cstr(out);
-  free(out);
-  return str;
-}
-
 static VALUE rb_pad_cjk(VALUE self) {
   Check_Type(self, T_STRING);
 
@@ -266,7 +256,17 @@ static VALUE rb_pad_cjk(VALUE self) {
   return str;
 }
 
+/*static VALUE rb_pad_cjk1(VALUE self) {
+  Check_Type(self, T_STRING);
+
+  char* in = StringValueCStr(self);
+  char* out = padCjk1(in);
+  VALUE str = rb_str_new_cstr(out);
+  free(out);
+  return str;
+}*/
+
 void Init_cjk_auto_space(void) {
   rb_define_method(rb_cString, "cjk_auto_space", rb_pad_cjk, 0);
-  rb_define_method(rb_cString, "cjk_auto_space1", rb_pad_cjk1, 0);
+  //rb_define_method(rb_cString, "cjk_auto_space1", rb_pad_cjk1, 0);
 }
