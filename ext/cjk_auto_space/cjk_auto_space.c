@@ -1,11 +1,10 @@
 /*
-gcc ./cjkpad.c -o cjkpad `pkg-config --libs --cflags icu-uc icu-io`
+gcc ./cjkpad.c -o cjkpad `pkg-config --libs --cflags icu-uc`
 */
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <unicode/utext.h>
-/*#include <unicode/ustdio.h>*/
 #include <ruby.h>
 #include "extconf.h"
 
@@ -39,84 +38,65 @@ char* padCjk1(const char* str) {
       UBool nonCjk = !(cjk || u_isspace(cp) || u_isMarkdown(cp));
       int length = end - begin;
       if (lastNonCjk == begin) {
-	lastNonCjkPlusCp = cp;
+        lastNonCjkPlusCp = cp;
       }
       if (lastCjk == begin) {
-	lastCjkPlusCp = cp;
+        lastCjkPlusCp = cp;
       }
 
       if (begin > 0) {
         if ((cjk && begin == lastNonCjk) || (nonCjk && begin == lastCjk)) {
-   count++;
-   if (count > size-1) {
-      size *= 2;
-      formatted = realloc(formatted, size * sizeof(char));
-   }
-   strcat(formatted, " ");
-}
+           count++;
+           if (count > size-1) {
+             size *= 2;
+             formatted = realloc(formatted, size * sizeof(char));
+           }
+           strcat(formatted, " ");
+        }
 
-/*你好world_*哈哈哈*_hello
-你好_*hello*_哈哈哈world
-你好world哈哈哈*/
+        if (cjk && begin > lastCjk && u_isMarkdown(lastCjkPlusCp) && u_isMarkdown(prev_cp)) {
+           count += 2;
+           if (count > size-1) {
+             size *= 2;
+             formatted = realloc(formatted, size * sizeof(char));
+           }
+           char* temp = calloc(begin-lastCjk+3, sizeof(char));
+           temp[0] = ' ';
+           int i, j;
+           for (i = lastCjk, j = 1; i < begin; i++, j++) {
+             temp[j] = formatted[i];
+           }
+           temp[j] = ' ';
+           for (i = 0, j = lastCjk; i < strlen(temp) ; i++, j++) {
+             formatted[j] = temp[i];
+           }
+           free(temp);
+        }
 
-if (cjk && begin > lastCjk && u_isMarkdown(lastCjkPlusCp) && u_isMarkdown(prev_cp)) {
-   count += 2;
-   if (count > size-1) {
-      size *= 2;
-      formatted = realloc(formatted, size * sizeof(char));
-   }
-   char* temp = calloc(begin-lastCjk+3, sizeof(char));
-   temp[0] = ' ';
-   int i, j;
-   for (i = lastCjk, j = 1; i < begin; i++, j++) {
-     temp[j] = formatted[i];
-   }
+        if (nonCjk && begin > lastNonCjk && u_isMarkdown(lastNonCjkPlusCp) && u_isMarkdown(prev_cp)) {
+           count += 2;
+           if (count > size-1) {
+             size *= 2;
+             formatted = realloc(formatted, size * sizeof(char));
+           }
+           char* temp = calloc(begin-lastNonCjk+3, sizeof(char));
+           temp[0] = ' ';
+           int i, j;
+           for (i = lastNonCjk, j = 1; i < begin; i++, j++) {
+             temp[j] = formatted[i];
+           }
+           temp[j] = ' ';
 
-   if (!u_isspace(formatted[begin])) {
-     temp[j] = ' ';
-   } else {
-     count--;
-   }
-
-   for (i = 0, j = lastCjk; i < strlen(temp) ; i++, j++) {
-      formatted[j] = temp[i];
-   }
-   free(temp);
-}
-
-/*你好world_*哈哈哈*_hello
-你好_*hello*_哈哈哈world
-你好world哈哈哈*/
-
-if (nonCjk && begin > lastNonCjk && u_isMarkdown(lastNonCjkPlusCp) && u_isMarkdown(prev_cp)) {
-  count += 2;
-  if (count > size-1) {
-    size *= 2;
-    formatted = realloc(formatted, size * sizeof(char));
-  }
-  char* temp = calloc(begin-lastNonCjk+3, sizeof(char));
-   temp[0] = ' ';
-   int i, j;
-   for (i = lastNonCjk, j = 1; i < begin; i++, j++) {
-     temp[j] = formatted[i];
-   }
-
-   if (!u_isspace(formatted[begin])) {
-     temp[j] = ' ';
-   } else {
-     count--;
-   }
-
-   for (i = 0, j = lastNonCjk; i < strlen(temp); i++, j++) {
-      formatted[j] = temp[i];
-   }
-   free(temp);
-}	
+           for (i = 0, j = lastNonCjk; i < strlen(temp); i++, j++) {
+             formatted[j] = temp[i];
+           }
+           free(temp);
+         }
       }
 
       count += length;
       if (count > size-1) {
-	size *= 2;
+	      size *= 2;
         formatted = realloc(formatted, size * sizeof(char));
       }
       strncat(formatted, &str[begin], length);
@@ -126,7 +106,7 @@ if (nonCjk && begin > lastNonCjk && u_isMarkdown(lastNonCjkPlusCp) && u_isMarkdo
         lastCjk = end;
       }
       if (nonCjk) {
-	lastNonCjk = end;
+	      lastNonCjk = end;
       }
       prev_cp = cp;
     }
@@ -271,7 +251,9 @@ static VALUE rb_pad_cjk1(VALUE self) {
 
   char* in = StringValueCStr(self);
   char* out = padCjk1(in);
-  return rb_str_new_cstr(out);
+  VALUE str = rb_str_new_cstr(out);
+  free(out);
+  return str;
 }
 
 static VALUE rb_pad_cjk(VALUE self) {
@@ -279,7 +261,9 @@ static VALUE rb_pad_cjk(VALUE self) {
 
   char* in = StringValueCStr(self);
   char* out = padCjk(in);
-  return rb_str_new_cstr(out);
+  VALUE str = rb_str_new_cstr(out);
+  free(out);
+  return str;
 }
 
 void Init_cjk_auto_space(void) {
