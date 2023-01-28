@@ -5,8 +5,8 @@ require 'autocorrect-rb'
 require 'cjk_auto_space'
 
 arr = []
-open("titles.txt","r").each_line do |line|
-  arr << line
+open("posts.txt","r").each_line do |line|
+  arr << line unless line.strip.empty?
 end
 
 Benchmark.bm do |benchmark|
@@ -21,10 +21,4 @@ Benchmark.bm do |benchmark|
       str.cjk_auto_space
     end
   end
-
-  /*benchmark.report("cjk_auto_space1") do
-    arr.each do |str|
-      str.cjk_auto_space1
-    end
-  end*/
 end
